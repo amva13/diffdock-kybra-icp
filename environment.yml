@@ -1,0 +1,7 @@
+name: diffdock
+channels:
+  - defaults
+dependencies:
+  - python=3.10.3
+  - pip:
+    - kybra==0.5.2
