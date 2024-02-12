@@ -62,7 +62,7 @@ def run_diffdock_demo() -> Async[HttpResponse]:
     global sim_ran
     http_result: CallResult[HttpResponse] = yield management_canister.http_request(
         {
-            "url": "https://diffdock-flask.azurewebsites.net/icp/demo",
+            "url": "https://diffdock-flask-pip.azurewebsites.net/icp/demo",
             "max_response_bytes": 2_000,
             "method": {"get": None},
             "headers": [],
